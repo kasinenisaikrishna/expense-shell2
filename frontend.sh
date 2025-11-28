@@ -57,4 +57,4 @@ cp /home/ec2-user/expense-shell2/expense.conf /etc/nginx/default.d/expense.conf
 validate $? "copied expense conf"
 
 systemctl restart nginx &>>$log_file
-validate $? "restarting nginx"
+validate $? "restarted nginx"
